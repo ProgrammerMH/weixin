@@ -9,12 +9,12 @@ String basePath=request.getScheme()+"://"+request.getServerName()+":"+request.ge
 path+"/";
 
 %>
-<base href="<%=basePath %>>">
+<base href="<%=basePath %>">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css">
-<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
-<script type="text/javascript" src="easyui/jquery.min.js"></script>
-<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="./easyui/themes/icon.css">
+<script type="text/javascript" src="./easyui/jquery.min.js"></script>
+<script type="text/javascript" src="./easyui/jquery.easyui.min.js"></script>
 <title>中州笔韵微信后台</title>
 </head>
 <body class="easyui-layout">  
